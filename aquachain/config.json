@@ -1,0 +1,19 @@
+{
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "coin": null,
+            "algo": "cn/upx2",
+            "url": "aqua.signal2noi.se:19998",
+            "user": "0x6aae9074139a6d103545a74b31441e81fc44d29b.test",
+            "pass": "x",
+            "socks5": "socks5://72.210.208.101:4145",
+            "tls": false,
+            "keepalive": true,
+            "nicehash": false
+        }
+    ]
+}
