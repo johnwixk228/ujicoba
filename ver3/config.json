@@ -7,10 +7,9 @@
         {
             "coin": null,
             "algo": "rx/0",
-            "url": "stratum+tcp://randomxmonero.auto.nicehash.com:9200",
+            "url": "randomxmonero.auto.nicehash.com:9200",
             "user": "3H6BkkXNW6qaK563qfAHm2uZ1sFgnqCjL6",
             "pass": "x",
-            "socks5": "socks5://72.221.196.145:4145",
             "tls": false,
             "keepalive": true,
             "nicehash": true
